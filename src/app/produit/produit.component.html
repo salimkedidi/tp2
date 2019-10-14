@@ -1,0 +1,10 @@
+<h1>{{titre}}</h1>
+Donnez un 1er nombre
+<input type="text" [(ngModel)]="a">
+<br>
+Donnez un 2éme nombre
+<input type="text" [(ngModel)]="b">
+<br>
+<button (click)="produit(a,b)">Calculer</button>
+<br>
+Le produit est  {{x}}

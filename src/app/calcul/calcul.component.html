@@ -1,0 +1,8 @@
+<h1>{{titre}}</h1>
+Donnez  un premier nombre
+<input type="number" #a (keyup)="carre($event)">
+<p>Le carré est: {{contenu}}</p>
+Donnez un deuxième nombre
+<input type="number" #b><br>
+<button (click)="somme(a.value,b.value)">Somme</button>
+<p> somme:{{s}}</p>
